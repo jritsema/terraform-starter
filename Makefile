@@ -18,3 +18,8 @@ init:
 .PHONY: checks
 checks:
 	pre-commit run --all-files
+
+## summary: summary of terraform resource changes
+.PHONY: summary
+summary:
+	terraform plan | grep " resource "
