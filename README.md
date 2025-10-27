@@ -7,7 +7,9 @@ This repo uses [asdf](https://asdf-vm.com/) to manage the `terraform` CLI and th
 ```
  Choose a make command to run
 
-  init    project initialization - install tools and register git hook
+  init      project initialization - install tools and register git hook
+  checks    run all pre-commit checks
+  summary   summary of terraform resource changes
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
